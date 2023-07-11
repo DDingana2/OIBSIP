@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.calculator {
+    position:relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background-color: rgb(2, 65, 67);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+  }
+  
+  #result {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 25px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .buttons button:active{
+    transform: scale(0.99);
+  }
+  .operator{
+    color: rgb(237, 62, 62);
+  }
+  h1{
+      text-align: center;
+      margin-left: auto;
+      margin-bottom: auto;
+      margin-right: -750px;
+      margin-top: 70px;
+      font-size: 40px;
+     
+  }
